@@ -69,11 +69,11 @@ public class SecondController
 		System.out.println("What is your second favorite number?");
 		userNumber = textScanner.nextInt();
 		System.out.println(userNumber);
+		String answer = textScanner.nextLine();
 		
 		System.out.println("What is Pi?");
-		Double answer = textScanner.nextDouble();
-		System.out.println(answer);
-		
+		answer = textScanner.nextLine();
+		validInt(answer);
 		textScanner.close();
 	}
 	
