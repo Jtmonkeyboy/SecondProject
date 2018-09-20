@@ -40,11 +40,11 @@ public class SecondController
 		System.out.println("Dogs or Cats?");
 		answer = inputScanner.nextLine();
 		
-		if (answer.toLowerCase().equals("dogs") || answer.toLowerCase().equals("dog") ) 
+		if(answer.toLowerCase().equals("dogs") || answer.toLowerCase().equals("dog") ) 
 		{
 			System.out.println("I love dogs!");
 		}
-		else if (answer.toLowerCase().equals("cats") || answer.toLowerCase().equals("cat") ) 
+		else if(answer.toLowerCase().equals("cats") || answer.toLowerCase().equals("cat") ) 
 		{
 			System.out.println("I don't really like cats.");
 		}
